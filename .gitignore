@@ -3,6 +3,8 @@ logs
 *.log
 .DS_Store
 dist/client.js
+public/client.js
+.vscode
 
 # Runtime data
 pids

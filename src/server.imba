@@ -1,14 +1,14 @@
 var express = require 'express'
 var server = express()
 
-server.use(express.static('./dist'))
+server.use(express.static('./public'))
 
 server.get '/' do |req,res|
 	var html = <html>
 		<head>
 			<title> "Imba - Hello World"
 			<meta charset="utf-8">
-			<link rel="stylesheet" href="/dist/index.css" media="screen">
+			<link rel="stylesheet" href="/public/index.css" media="screen">
 		<body>
 			<script src="/client.js">
 	
